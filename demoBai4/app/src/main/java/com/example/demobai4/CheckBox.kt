@@ -49,8 +49,7 @@ fun CheckboxExample(modifier: Modifier = Modifier) {
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        Row()
-        {
+        Row() {
             Checkbox(
                 checked = checkedState1,
                 onCheckedChange = { checkedState1 = it }
