@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-        val dataset = listOf("January", "February", "March")
+        val dataset = listOf("January", "February", "March", "Phuoc", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13")
         val recyclerView: RecyclerView = findViewById(R.id.recyclerview)
         val adapter = WordListAdapter(dataset)
         recyclerView.adapter = adapter
