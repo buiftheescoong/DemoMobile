@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.demobai7"
+    namespace = "com.example.demo74"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.demobai7"
+        applicationId = "com.example.demo74"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -47,7 +47,6 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    buildToolsVersion = "34.0.0"
 }
 
 dependencies {
@@ -60,7 +59,6 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.androidx.work.runtime.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -68,5 +66,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation ("com.squareup.okhttp3:okhttp:4.9.3")
 }

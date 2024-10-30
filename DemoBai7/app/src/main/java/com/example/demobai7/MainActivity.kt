@@ -24,8 +24,8 @@ class MainActivity : ComponentActivity() {
 //             NetworkStatusCheckScreen(stringUrl = "https://example.com")
 //                UrlBuilder()
 //              HttpURLConnectionExample()
-//                OkHttpExample()
-               XMLPullParserExample()
+                OkHttpExample()
+//               XMLPullParserExample()
 //                JSONObjectExample()
 //             JSONObjectExample2()
             }
