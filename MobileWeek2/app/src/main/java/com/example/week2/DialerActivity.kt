@@ -33,10 +33,10 @@ class DialerActivity : ComponentActivity() {
         ) {
             Button(onClick = {
                 val intent = Intent(Intent.ACTION_DIAL)
-                intent.data = Uri.parse("tel:8005551234")
-                if (intent.resolveActivity(packageManager) != null) {
+                intent.data = Uri.parse("tel:0967276035")
+
                     context.startActivity(intent)
-                }
+
             }) {
                 Text("Open Dialer")
             }

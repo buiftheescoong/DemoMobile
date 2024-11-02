@@ -80,14 +80,17 @@ fun Greeting(modifier: Modifier = Modifier) {
     ){
         Button(
             onClick = {
+                // Explicit Intent
 //                val intent = Intent(context, SecondActivity::class.java)
 //                context.startActivity(intent)
 
-//                val intent = Intent(action)
-//                context.startActivity(intent)
-                val uri = Uri.parse("http://www.google.com")
-                val intent = Intent(Intent.ACTION_VIEW, uri)
+                //Implicit Intent
+                val intent = Intent(action)
                 context.startActivity(intent)
+
+//                val uri = Uri.parse("http://www.google.com")
+//                val intent = Intent(Intent.ACTION_VIEW, uri)
+//                context.startActivity(intent)
             }
         ) {
             Text(
