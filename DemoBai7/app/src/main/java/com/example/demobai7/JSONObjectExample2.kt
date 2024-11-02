@@ -14,7 +14,6 @@ import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import java.io.IOException
 
-
 @Composable
 fun JSONObjectExample2() {
     val context = LocalContext.current

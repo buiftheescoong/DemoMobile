@@ -1,18 +1,9 @@
 package com.example.demobai7
 
-import HttpURLConnectionExample
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.tooling.preview.Preview
 import com.example.demobai7.ui.theme.DemoBai7Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,10 +12,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             DemoBai7Theme {
-//             NetworkStatusCheckScreen(stringUrl = "https://example.com")
+             NetworkStatusCheckScreen(stringUrl = "https://example.com")
+//                Wifi3GCheckScreen(stringUrl = "https://example.com")
 //                UrlBuilder()
 //              HttpURLConnectionExample()
-                OkHttpExample()
+//                OkHttpExample()
 //               XMLPullParserExample()
 //                JSONObjectExample()
 //             JSONObjectExample2()
